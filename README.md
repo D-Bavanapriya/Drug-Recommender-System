@@ -27,12 +27,12 @@ python app.py
 * Input patient symptoms and medical history into the system.
 * The system will process the inputs and return drug recommendations.
 * Use the recommendations as a guide to determine the most suitable treatment options.
-* 
+  
 # Project Structure
-medicine.csv: Dataset used for training.
-/model: Contains machine learning models.
-/scripts: Python scripts for preprocessing and analysis.
-app.py: Main application file to run the system.
+* medicine.csv: Dataset used for training.
+* models: Contains machine learning models i.e., medicine_dict.pkl, similarity.pkl
+* scripts: Python scripts for preprocessing and analysis i.e., Drug Recommender System.ipynb
+* app.py: Main application file to run the system.
 
 # Technologies Used
 * Python: For core logic and machine learning model development.
